@@ -64,7 +64,6 @@ RUN apt-get clean && \
 
 ####
 # Retrieve and build references
-# Note: I am unable to test the code below. The cluster I have access to is unable to run docker; my desktop does not have enough memory. It is only provided as a reference.
 
 # hs37d5
 RUN mkdir /reference && mkdir /reference/hs37d5 && cd /reference/hs37d5 && \   
