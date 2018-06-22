@@ -158,7 +158,7 @@ BASH code:
     --paired-end \
     --estimate-rspd \
     --forward-prob 0 \
-    --
+    --calc-ci
     --bam output/star/${SAMPLE}.Aligned.toTranscriptome.out.bam \
     ${rsem_reference} \
     ${prefix}
