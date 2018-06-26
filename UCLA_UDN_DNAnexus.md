@@ -195,7 +195,7 @@ java -Xmx6g -jar /opt/RNA-SeQC.jar \
     -r ${reference_fasta} \
     -strictMode \
     -noDoC \
-    -gatkFlags ---allow_potentially_misencoded_quality_scores \
+    -gatkFlags --allow_potentially_misencoded_quality_scores \
     -o $outdir
     
 ## clean output
