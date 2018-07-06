@@ -215,4 +215,4 @@ Sample plots from RNASeQC output (note that these are test cases; many are known
 ## Additional thoughts
 * We should add proportion of globin RNA as a QC metric for blood samples.
 * Include raw counts for genes and exons (featurecounts or htseq-count).
-* Docker images?
+* Docker image?
