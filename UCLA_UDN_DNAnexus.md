@@ -207,3 +207,8 @@ Output file to keep:
 ```bash
 /output/rnaseqc/UDN369194-Fibroblast.rnaseqc.tar.gz
 ```
+Sample plots from RNASeQC output (note that these are all intentially problematic test cases):
+
+![alt tag](https://github.com/furbelows/udn_rnaseq/blob/master/qc1.png "qc1")
+![alt tag](https://github.com/furbelows/udn_rnaseq/blob/master/qc2.png "qc2")
+
