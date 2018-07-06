@@ -49,7 +49,7 @@ rsem-prepare-reference \
 ```
 ### RNASeQC GTF reference
 
-Any GTF file will work (still finalizing what I want to use).
+Any GTF file will work; we use here a flattened gene model version and exclude certain intron rentention transcripts on the gTEx blacklist.
 
 ## Section 3. Pipeline execution
 
@@ -207,7 +207,7 @@ Output file to keep:
 ```bash
 /output/rnaseqc/UDN369194-Fibroblast.rnaseqc.tar.gz
 ```
-Sample plots from RNASeQC output (note that these are all intentially problematic test cases):
+Sample plots from RNASeQC output (note that these are test cases; many are known problematic samples):
 
 ![alt tag](https://github.com/furbelows/udn_rnaseq/blob/master/qc1.png "qc1")
 ![alt tag](https://github.com/furbelows/udn_rnaseq/blob/master/qc2.png "qc2")
