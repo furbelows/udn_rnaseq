@@ -20,8 +20,8 @@ There are three sections:
 WGS alignments for the UCLA UDN are based on the hs37d5.fa (GRCh37/hg19 + decoy sequences).
 For RNA-seq, we will use GRCh37 without the decoy sequence or alternate/haplotype contigs (primary assembly).
 
-[GRCh37 fasta](http://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz)
-[GRCh37 index](http://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.fai)
+*[GRCh37 fasta](http://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz)
+*[GRCh37 index](http://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.fai)
 
 ### Gene annotation
 We use GENCODE v19, which is the last annotation build native to GRCh37. We need to change the chromosome naming convention to match our genomic reference.
