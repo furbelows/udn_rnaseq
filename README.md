@@ -58,23 +58,6 @@ $HOME/bin/STAR \
     --runThreadN 6 \
     --genomeDir ${star_index} \
     --twopassMode Basic \
-    --outFilterMultimapNmax 20 \
-    --alignSJoverhangMin 8 \
-    --alignSJDBoverhangMin 1 \
-    --outFilterMismatchNmax 999 \
-    --outFilterMismatchNoverLmax 0.1 \
-    --alignIntronMin 20 \
-    --alignIntronMax 1000000 \
-    --alignMatesGapMax 1000000 \
-    --outFilterType BySJout \
-    --outFilterScoreMinOverLread 0.33 \
-    --outFilterMatchNminOverLread 0.33 \
-    --limitSjdbInsertNsj 1200000 \
-    --readFilesIn ${fastq1} ${fastq2} \
-    --readFilesCommand zcat \
-    --outFileNamePrefix ${prefix} \
-    --outSAMstrandField intronMotif \
-    --outFilterIntronMotifs None \
     --alignSoftClipAtReferenceEnds Yes \
     --quantMode TranscriptomeSAM GeneCounts \
     --quantTranscriptomeBAMcompression -1 \
@@ -82,12 +65,7 @@ $HOME/bin/STAR \
     --outBAMcompression -1 \
     --outSAMunmapped Within \
     --genomeLoad NoSharedMemory \
-    --chimSegmentMin 15 \
-    --chimJunctionOverhangMin 15 \
-    --chimOutType Junctions WithinBAM SoftClip \
-    --chimMainSegmentMultNmax 1 \
-    --outSAMattributes NH HI AS nM NM ch \
-    --outSAMattrRGline ID:rg1 PL:Illumina LB:${sample_id} SM:${sample_id} CN:UNGC 
+    --outSAMattrRGline ID:rg1 PL:Illumina LB:${sample_id} SM:${sample_id}
 ```
 ### 2. RSEM quantification
 Below is the excerpt that performs RSEM quantification.
